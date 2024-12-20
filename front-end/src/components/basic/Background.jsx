@@ -11,7 +11,7 @@ const StyledBackground = styled.div`
 `
 
 const Background = ( props ) => (
-    <StyledBackground className="absolute inset-0 z-[-1]" { ...props } />
+    <StyledBackground className="absolute inset-0 z-[-1] opacity-75" { ...props } />
 )
 
 export default Background
