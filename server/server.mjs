@@ -1,6 +1,7 @@
 import express from "express"
 import connect_to_db from "./db.mjs"
 import cors from "cors"
+// import path from "path"
 
 const app = express()
 

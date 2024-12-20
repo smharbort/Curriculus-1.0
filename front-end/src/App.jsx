@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import GlobalStyles from "./styled/GlobalStyles"
 
 // IMPORT PAGES
-import HomePage from "./pages/HomePage"
+import Testing from "./pages/Testing"
 
 function App() {
 
@@ -14,7 +14,8 @@ function App() {
       <Router>
         <GlobalStyles />
         <Routes>
-          <Route path="/" element={ <HomePage /> }/>
+          {/* Test Routes Below */}
+          <Route path="/" element={ <Testing /> }/>
         </Routes>
       </Router>
     </>
